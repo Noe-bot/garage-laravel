@@ -11,6 +11,9 @@
                </div>
            </div>
        </div>
+       <div class="container">
+            <a class="btn btn-primary" href="{{ route('user.see.anouncements') }}">Voir la liste des annonces</a>
+       </div>
        <div class="row">
            @foreach($vehicles as $vehicle)
                <div class="col-lg-3">
